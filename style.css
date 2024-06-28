@@ -1,0 +1,277 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar {
+    background-color: darkmagenta;
+    position: sticky;
+    top: 0;
+    z-index: 10px;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    /* padding: 0; !important;  */
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Change text color to white */
+    font-weight: 600;
+}
+.navbar-light .navbar-nav .nav-link:focus {
+    color: white; /* Ensure the focused link stays white */
+}
+.navbar-brand img {
+    height: 40px;
+    /* padding: 20px; */
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none !important;
+}
+
+
+/*-----------------------banner----------------- */
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.promo-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 80px;
+}
+
+.play-btn {
+    width: 45px;
+    margin-top: 15px;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #fff;
+}
+.watch-video {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.watch-video:hover{
+    color: green;
+}
+
+.col-md-6 a img {
+    margin-bottom: 15px;
+}
+
+.bottom-img{
+    width: 100%;
+}
+
+#service {
+    padding: 80px 0;
+    background-color: white;
+    /* color: white; */
+}
+
+.service-img {
+    width: 100px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.service {
+    padding: 20px;
+}
+
+.font-monospace {
+    font-family: Pacifico, Dancing Script !important ;
+}
+
+.title::before {
+    content: "";
+    background-color: #5f1782;
+    height: 5px;
+    width: 264px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    transform: translateY(60px);
+}
+
+.btn {
+    box-shadow: none;
+    border: none;
+    border-radius: 20px;
+    background-image:linear-gradient(to right, #a517ba, #5f1782); 
+    outline: none;
+    border-color: #002752;
+
+}
+.btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+}
+
+.btn-primary:focus {
+    color: red;
+    outline: none;
+   
+}
+.btn-primary:hover {
+    color: black;
+}
+
+
+/* about-us */
+
+#about-us {
+    background-color: white;
+    /* color: white; */
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 500;
+    margin-top: 8%;
+}
+
+.about-us ul li {
+    margin: 10px 0; /* top and bootom    left right*/
+}
+
+.about-us ul {
+    margin-left: -12px;
+}
+
+
+/* testi monials  */
+#testimonials {
+    margin: 100px;
+}
+
+.testimonials {
+    border-left: 4px solid #7b1798;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.testimonials img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+
+
+.user-detail {
+    display: inline-block;
+    font-size: 12px;
+}
+
+/* social media container */
+#social-media {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 100px 0; 
+}
+
+#social-media {
+    font-size: 40px;
+}
+.social-media img {
+    width: 60px;
+    transition: 0.5s;
+}
+.social-media a:hover img {
+    transform: translateX(-10px);
+}
+
+
+/* footer section */
+#footer {
+    background-image:linear-gradient(to right, #a517ba, #002752); 
+    color: #fff;
+
+}
+.footer-img {
+    width: 100%;
+}
+.footer-box {
+    padding: 20px;
+}
+.footer-box img {
+    width: 100px;
+    margin-bottom: 20px;
+    /* padding-left: 10px; */
+}
+
+.footer-icon i{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image:linear-gradient(to right, #a517ba, #002752); 
+    
+}
+
+.footer-box .form-control {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+.footer-box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image:linear-gradient(to right, #a517ba, #002752); 
+}
+hr {
+    background-color: white;
+}
+.copyright{
+    margin-top: 0;
+    padding-bottom: 0px;
+    text-align: center;
+}
+@media (max-width: 768px){
+    .promo-title{
+        margin-top: 20px;
+    }
+    #service {
+        padding-top: 50px;
+    }
+
+    .title::before {
+        width: 190px;
+        height: 3px;
+        transform: translateY(50px);
+    }
+
+    .client_say_detail {
+        padding-left: 10px;
+    }
+}
